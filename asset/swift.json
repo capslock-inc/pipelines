@@ -1,0 +1,447 @@
+{
+    "intents": [
+        {
+            "patterns": [
+                "How many active Subscriptions do I have",
+                "What are my active subscriptions",
+                "What are my total Active Subscriptions",
+                "Get details of my Active Subscriptions",
+                "Get my Active Subscriptions",
+                "What are my total Active Subscriptions"
+            ],
+            "tag": "UnPaidInvoiceCount"
+        },
+        {
+            "patterns": [
+                "How many Subscriptions are pending for me",
+                "What are my Pending Subscriptions",
+                "What are my Total Pending Subscriptions",
+                "Which of my subscriptions are pending",
+                "My pending subscriptions"
+            ],
+            "tag": "InvoiceCount"
+        },
+        {
+            "patterns": [
+                "How many of my Subscriptions are Rejected",
+                "what are my total rejected subscriptions",
+                "My Rejected Subscriptions",
+                "What are my rejected subscriptions",
+                "Which of my subscriptions have been rejected"
+            ],
+            "tag": "SubscriptionCurrency"
+        },
+        {
+            "patterns": [
+                "How many of my subscriptions are suspended",
+                "My suspended subscriptions",
+                "What are my suspended subscriptions",
+                "Get the list of my suspended subscriptions",
+                "what are my subscriptions that are suspended",
+                "Which of my subscriptions are suspended"
+            ],
+            "tag": "InvoiceAmount"
+        },
+        {
+            "patterns": [
+                "Show my subscription List ",
+                "My subscriptions list",
+                "What are my overall subscriptions",
+                "my Total subscription",
+                "get the List of my subscriptions.",
+                "My Subscriptions",
+                "get the details of all my subscriptions",
+                "get all my subscriptions",
+                "which subscriptions do I have/hold",
+                "Show me the list of my subscriptions.",
+                "What are all my subscriptions",
+                "How many Subscriptions do I have",
+                "What is the total of all my subscriptions",
+                "Get the total number of my subscriptions",
+                "What is my overall subscription count",
+                "My total subscriptions",
+                "what is the count of all my subscriptions"
+            ],
+            "tag": "InvoiceDate"
+        },
+        {
+            "patterns": [
+                "Get SUB-1 subscription details.",
+                "What are the details of SUB-1",
+                "Details of SUB-1",
+                "Give the details of SUB-1.",
+                "What is the count of licenses in SUB-1",
+                "How many licenses are there in SUB-1 ",
+                "How many licenses do I have in SUB-1",
+                "What is the number of licenses in SUB-1",
+                "what is the total count of SUB-1 licenses",
+                "what is the count of all my licenses",
+                "Get the number of my licenses",
+                "what is my license total count",
+                "How many licenses do I hold purchased",
+                "How many licenses do I have purchased",
+                "What is the total number of my licenses"
+            ],
+            "tag": "PaidInvoiceCount"
+        },
+        {
+            "patterns": [
+                "What are the licenses in SUB-1",
+                "Get the License list of SUB-1 ",
+                "license on SUB-1",
+                "i want my license on my SUB-1",
+                "can you get license information in subscription SUB-1 ",
+                "Products details for SUB-1 ",
+                "Products list for SUB-1 ",
+                "Products on SUB-1",
+                "i want my Products on my SUB-1",
+                "can you get Products info on my subscription SUB-1",
+                "What products/ licenses do I have in SUB-1",
+                "I need a list of my licenses under SUB-1",
+                "i wanna know about my subscription licenses",
+                "i wanna know about my subscription Products ",
+                "can i know my subscription licenses",
+                "can i know my subscription Products ",
+                "What are my licenses in SUB-1"
+            ],
+            "tag": "SubscriptionList"
+        },
+        {
+            "patterns": [
+                "what are the details of my licenses",
+                "Get my licenses list",
+                "what are my overall products",
+                "what are my total licenses",
+                "What are the licenses I have",
+                "Get me the list of all my products."
+            ],
+            "tag": "UnpaidInvoice"
+        },
+        {
+            "patterns": [
+                "can i know SUB-1 expiry date ",
+                "can you get the expiry date info on my subscription SUB-1 ",
+                "I want to know about SUB-1 subscription expiry date ",
+                "can you get my expiry date info on my subscription SUB-1  ",
+                "what is the expiry date of  SUB-1  ",
+                "When is SUB-1 expiring",
+                "i want the expiry date of SUB-1.",
+                "Till when can I use my subscriptions",
+                "What is SUB-1 Expiry Date",
+                "When will the SUB-1 expire ",
+                "When does SUB-1 expire",
+                "Final day of SUB-1 ",
+                "When should I renew SUB-1",
+                "What is the end date of SUB-1",
+                "Till when is my subscription valid",
+                "can I know when my subscription is expiring",
+                "can i know my subscription expiry date ",
+                "i wanna know about my subscription expiry data ",
+                "expiry date my subscription",
+                "what is last date of SUB-1",
+                "What is last day of SUB-1",
+                "Final day of subscription",
+                "When do I have to renew my subscription",
+                "what is the SUB-1 renewal date",
+                "When is my subscription expiring"
+            ],
+            "tag": "FailedInvoice"
+        },
+        {
+            "patterns": [
+                "What is the next billing date of SUB-1",
+                "can you get the next billing date info on subscription SUB-1",
+                "i want my next billing date on my SUB-1",
+                "When/ what is my next billing date",
+                "can i know my subscription next billing date ",
+                "i wanna know about my subscription next billing date ",
+                "next billing date"
+            ],
+            "tag": "SubscriptionLicense"
+        },
+        {
+            "patterns": [
+                "can you get status info on my subscription SUB-1 ",
+                "status on SUB-1",
+                "i want my status on my SUB-1",
+                "Status of SUB-1",
+                "What is the Status of my subscriptions",
+                "can i know my subscription status ",
+                "i wanna know about my subscription status ",
+                "can i know my subscription status ",
+                "Status of my subscription",
+                "status my subscription",
+                "Has my subscription been approved"
+            ],
+            "tag": "PriceListType"
+        },
+        {
+            "patterns": [
+                "can you get billing amount info on my subscription SUB-1 ",
+                "billing amount of SUB-1",
+                "i want my billing amount on my SUB-1",
+                "Get the price of SUB-1 ",
+                "What is the billing amount of SUB-1",
+                "can i know my subscription billing amount ",
+                "i wanna know about my subscription billing amount ",
+                "What is the billing amount of my subscription",
+                "SUB-1 price",
+                "How much is the total price of SUB-1"
+            ],
+            "tag": "SubscriptionStatus"
+        },
+        {
+            "patterns": [
+                "PriceListType SUB-1",
+                "Subscription Type SUB-1",
+                "What are the different licenses available",
+                "What are the types of licenses under SUB-1"
+            ],
+            "tag": "PendingInvoiceCount"
+        },
+        {
+            "patterns": [
+                "What is the SubscriptionTerm of SUB-1",
+                "What is the term of SUB-1",
+                "What is the validity period of my subscription",
+                "Validity of SUB-1"
+            ],
+            "tag": "ActiveSubscription"
+        },
+        {
+            "patterns": [
+                "Which Subscriptions are about to expire in 10 days",
+                "What is list of subscriptions that will expire in 10 days",
+                "What the subscriptions that will expire in 10 days",
+                "Which of my subscriptions are expiring soon",
+                "When are my subscriptions expiring",
+                "Which of my subscriptions are ending soon"
+            ],
+            "tag": "DownloadInvoice"
+        },
+        {
+            "patterns": [
+                "Currency of SUB-1",
+                "SUB-1 Currency",
+                "What is currency of SUB-1",
+                "What is the currency of my subscription",
+                "Get the currency of my subscriptions"
+            ],
+            "tag": "SubscriptionMSId"
+        },
+        {
+            "patterns": [
+                "SUB-1 Notes",
+                "Get the Notes of SUB-1",
+                "What notes have been added to SUB-1",
+                "What are the subscription notes of my license",
+                "what notes have been included in the subscription"
+            ],
+            "tag": "InvoiceLines"
+        },
+        {
+            "patterns": [
+                "What is SUB-1 MSCycle",
+                "MSCycle of SUB-1 ",
+                "What is the MS Cycle of my subscription",
+                "What is the difference between MS Cycle and Invoice cycle",
+                "What is MS cycle"
+            ],
+            "tag": "SubscriptionNotes"
+        },
+        {
+            "patterns": [
+                "SUB-1 MSId",
+                "MSId of SUB-1 ",
+                "My Subscription MSId",
+                "What is the MSId of license",
+                "Get the MSId of my subscription."
+            ],
+            "tag": " PendingSubscription"
+        },
+        {
+            "patterns": [
+                "SUB-1 InvoiceCycle",
+                "InvoiceCycle of SUB-1 ",
+                "My Subscription InvoiceCycle",
+                "What is the invoice cycle of my subscription",
+                "Get the invoice cycle of license."
+            ],
+            "tag": "FailedInvoiceCount"
+        },
+        {
+            "patterns": [
+                "Where to find the status of my invoice",
+                "How to know my invoice status",
+                "Status of INV-1",
+                "What is the status of INV-1",
+                "My invoice status",
+                "Get the status of INV-1"
+            ],
+            "tag": "SubscriptionMSCycle"
+        },
+        {
+            "patterns": [
+                "Download of INV-1",
+                "INV-1  Download",
+                "Get the downloaded invoice of my license",
+                "Can I download INV-1",
+                "Give me the license invoice."
+            ],
+            "tag": "PendingInvoice"
+        },
+        {
+            "patterns": [
+                "My Paid invoices list",
+                "Get me a list of invoices that are paid",
+                "Which invoices have I paid",
+                "What is the list of my paid invoices",
+                "What are my paid invoices"
+            ],
+            "tag": "SubscriptionInvoiceCycle"
+        },
+        {
+            "patterns": [
+                "Get my pending invoices list",
+                "What are my Pending invoices",
+                "My pending invoices",
+                "Which invoices are pending",
+                "Why is my invoice pending even though I paid"
+            ],
+            "tag": "SubscriptionLicenseList"
+        },
+        {
+            "patterns": [
+                "My Unpaid invoice list",
+                "My Unpaid invoice",
+                "get the list of my unpaid invoices",
+                "how to pay my invoice",
+                "What are my unpaid invoices"
+            ],
+            "tag": "NextBillingDate"
+        },
+        {
+            "patterns": [
+                "my failed invoice",
+                "What are my failed invoices",
+                "get me my failed invoices",
+                "failed invoices",
+                "What is the list of my failed invoices"
+            ],
+            "tag": "LicenseList"
+        },
+        {
+            "patterns": [
+                "What is the invoice amount of INV-1",
+                "Get me the INV-1 invoice amount",
+                "Invoice amount of INV-1",
+                "What is the amount of INV-1",
+                "My INV-1 amount"
+            ],
+            "tag": "InvoiceStatus"
+        },
+        {
+            "patterns": [
+                "My INV-1 create date ",
+                "What is INV-1 creation generation date",
+                "when was INV-1 created",
+                "INV-1 creation date",
+                "what is the Date of INV-1 "
+            ],
+            "tag": "SubscriptionTerm"
+        },
+        {
+            "patterns": [
+                "Get me the payment date of INV-1",
+                "when did I pay INV-1",
+                "what is INV-1 paid date",
+                "what is the payment date of INV-1",
+                "when was INV-1 paid"
+            ],
+            "tag": "ExpiringSoon"
+        },
+        {
+            "patterns": [
+                "My INV-1 Notes",
+                "What are the notes in INV-1",
+                "Get me the notes of INV-1",
+                "INV-1 Notes",
+                "Notes of INV-1 "
+            ],
+            "tag": "ExpiryDate"
+        },
+        {
+            "patterns": [
+                "My INV-1 Month count",
+                "INV-1 Month count",
+                "Month of INV-1 "
+            ],
+            "tag": "RejectSubscription"
+        },
+        {
+            "patterns": [
+                "My INV-1 Lines",
+                "My INV-1 List ",
+                "List of INV-1 "
+            ],
+            "tag": "InvoiceNotes"
+        },
+        {
+            "patterns": [
+                "How many invoice",
+                "My total invoice",
+                "Total invoice",
+                "What is the number of my invoices",
+                "How many invoices do I have"
+            ],
+            "tag": "InvoicePaidDate"
+        },
+        {
+            "patterns": [
+                "How many Paid invoice",
+                "what are my paid invoices",
+                "How many of my invoices have been paid",
+                "paid invoice list count",
+                "Which invoices have been paid"
+            ],
+            "tag": "BillingAmount"
+        },
+        {
+            "patterns": [
+                "How many Unpaid invoice ",
+                "My total Unpaid invoice",
+                "Total Unpaid invoice",
+                "Unpaid invoice list count"
+            ],
+            "tag": "SuspendSubscription"
+        },
+        {
+            "patterns": [
+                "How many Pending invoice are there",
+                "get my total pending invoices",
+                "what are the total Pending invoices",
+                "get the pending invoice list count"
+            ],
+            "tag": "PaidInvoice"
+        },
+        {
+            "patterns": [
+                "How many Failed invoice ",
+                "My total Failed invoice",
+                "Total Failed invoice",
+                "Failed  invoice list count"
+            ],
+            "tag": "InvoicePaymentType"
+        },
+        {
+            "patterns": [
+                "My INV-1 Payment Type",
+                "My INV-1 Payment Method",
+                "What is the payment mode of INV-1",
+                "My invoice payment type",
+                "How did I pay INV-1"
+            ],
+            "tag": "InvoiceMonths"
+        }
+    ]
+}
